@@ -12,7 +12,7 @@ const generateContacts = async (number) => {
     }
     await writeContacts(contacts);
 
-    console.log('New contact added:', contacts);
+    console.log('New contacts added:', contacts);
   } catch (error) {
     console.error('Error adding contact:', error);
   }
